@@ -4,7 +4,7 @@ import './iconAside.css';
 const IconAside = (props) => {
   return (
     <div className='iconaside'>
-      <a href="#">
+      <a href={props.href}>
         <button>{props.icon}<span>{props.name}</span></button>
       </a>
     </div>

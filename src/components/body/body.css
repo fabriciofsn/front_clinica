@@ -31,3 +31,7 @@
   max-width: 1000px;
   
 }
+
+body{
+  background: linear-gradient(white, #7a7979);
+}
