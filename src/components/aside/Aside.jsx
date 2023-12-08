@@ -8,6 +8,8 @@ import { RiComputerFill } from "react-icons/ri";
 import Body from '../body/Body';
 import IconAside from '../icon/IconAside';
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
+import { GiRemedy } from "react-icons/gi";
+
 
 
 
@@ -30,7 +32,7 @@ const Aside = () => {
         <IconAside icon={<FaUser color='white' size={20}/>} name="Pacientes"/>
       </li>
       <li>
-        <IconAside icon={<FaCalendarCheck color='white' size={20}/>} name="Consultas"/>
+        <IconAside icon={<GiRemedy color='white' size={20}/>} name="Farmácia"/>
       </li>
       <li>
         <IconAside icon={<RiMoneyDollarCircleFill color='white' size={20}/>} name="Pagamentos"/>
