@@ -23,7 +23,7 @@ const Aside = () => {
 
     <ul>
       <li>
-        <IconAside icon={<RiComputerFill color='white' size={20}/>} name="Administrativo"/>
+        <IconAside href="/" icon={<RiComputerFill color='white' size={20}/>} name="Administrativo"/>
       </li>
       <li>
         <IconAside icon={<FaUserDoctor color='white' size={20}/>} name="Médicos"/>
