@@ -1,0 +1,16 @@
+.aside{
+  background-color: #005767;
+  width: 100%;
+  bottom: 0;
+  max-width: 220px;
+  height: 89vh;
+  text-align: center;
+}
+
+.icon{
+  padding: 1rem 0;
+}
+
+.wrapper{
+  display: flex;
+}

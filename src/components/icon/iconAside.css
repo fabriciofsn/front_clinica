@@ -1,0 +1,18 @@
+.iconaside a button{
+  background-color: #006589;
+  color: #d9d9d9;
+  display: flex;
+  min-height: 30px;
+  width: 200px;
+  margin: 0 5px;
+  justify-content: center;
+  align-items: center;
+}
+.iconaside a {
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.iconaside span{
+  margin: 0 5px;
+}
