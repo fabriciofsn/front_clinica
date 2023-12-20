@@ -18,3 +18,23 @@ telas possíveis:
 10- contato
 11- sobre
 12- FAQ
+
+Betão 
+9- not found 404
+10- contato
+11- sobre
+
+Jobs
+3- gerenciar horários
+5- gerenciar consultas
+8- gerenciar usuários e consultas (ADM)
+
+Elon
+--------------
+--------------
+--------------
+
+Hesnan
+--------------
+--------------
+--------------
