@@ -1,0 +1,20 @@
+Website em React
+Máx. 04 pessoas;
+03 páginas por pessoa (min. 03p);
+Responsivo (mobile-first)
+Barra de navegação;
+Mín. 02 formulários (cad. usuário, cad. produto/serviço);
+
+telas possíveis:
+1- index
+2- cadastro usuário
+3- gerenciar horários
+4- cadastro consulta
+5- gerenciar consultas
+6- consulta (status)
+7- perfil
+8- gerenciar usuários e consultas (ADM)
+9- not found 404
+10- contato
+11- sobre
+12- FAQ
