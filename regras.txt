@@ -9,7 +9,7 @@ telas possíveis:
 1- index
 2- cadastro usuário/paciente
 3- gerenciar horários
-4- cadastro consulta
+4- cadastro/agendar consulta
 5- gerenciar consultas
 6- consulta (status)
 7- perfil
@@ -30,7 +30,7 @@ Jobs
 8- gerenciar usuários e consultas (ADM)
 
 Elon
-4- cadastro consulta
+4- cadastro/agendar consulta
 2- cadastro usuário/paciente
 6- consulta (status)
 
