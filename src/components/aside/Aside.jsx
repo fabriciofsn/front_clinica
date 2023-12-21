@@ -26,16 +26,16 @@ const Aside = () => {
         <IconAside href="/" icon={<RiComputerFill color='white' size={20}/>} name="Administrativo"/>
       </li>
       <li>
-        <IconAside icon={<FaUserDoctor color='white' size={20}/>} name="Médicos"/>
+        <IconAside href="/medicos" icon={<FaUserDoctor color='white' size={20}/>} name="Médicos"/>
       </li>
       <li>
-        <IconAside icon={<FaUser color='white' size={20}/>} name="Pacientes"/>
+        <IconAside href="/pacientes" icon={<FaUser color='white' size={20}/>} name="Pacientes"/>
       </li>
       <li>
-        <IconAside icon={<GiRemedy color='white' size={20}/>} name="Farmácia"/>
+        <IconAside href="/farmacia" icon={<GiRemedy color='white' size={20}/>} name="Farmácia"/>
       </li>
       <li>
-        <IconAside icon={<RiMoneyDollarCircleFill color='white' size={20}/>} name="Pagamentos"/>
+        <IconAside href="/pagamentos" icon={<RiMoneyDollarCircleFill color='white' size={20}/>} name="Pagamentos"/>
       </li>
     </ul>
 
