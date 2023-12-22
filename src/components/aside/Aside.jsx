@@ -31,12 +31,6 @@ const Aside = () => {
       <li>
         <IconAside href="/pacientes" icon={<FaUser color='white' size={20}/>} name="Pacientes"/>
       </li>
-      <li>
-        <IconAside href="/farmacia" icon={<GiRemedy color='white' size={20}/>} name="Farmácia"/>
-      </li>
-      <li>
-        <IconAside href="/pagamentos" icon={<RiMoneyDollarCircleFill color='white' size={20}/>} name="Pagamentos"/>
-      </li>
     </ul>
     </div>
   </div>
