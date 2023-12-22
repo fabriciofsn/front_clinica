@@ -1,0 +1,33 @@
+.pacientes{
+  display: flex;
+  justify-content: center;
+  background-color: #212529;
+  width: 100%;
+  max-height: 550px;
+    overflow-y: auto;
+}
+
+.wrapper{
+  background-color: #212529;
+}
+
+table {
+  width: 100%;
+  /* max-width: 1000px; */
+  margin: 0 10px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+ th,
+ td {
+   border: 1px solid #ddd;
+   color: #0AA2C0;
+   padding: 8px;
+   text-align: left;
+ }
+
+th{
+  background-color: #198754;
+  color: #d9d9d9;
+}

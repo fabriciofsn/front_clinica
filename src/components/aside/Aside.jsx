@@ -38,10 +38,7 @@ const Aside = () => {
         <IconAside href="/pagamentos" icon={<RiMoneyDollarCircleFill color='white' size={20}/>} name="Pagamentos"/>
       </li>
     </ul>
-
     </div>
-  
-    <Body />
   </div>
   )
 }
