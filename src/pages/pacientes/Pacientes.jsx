@@ -1,7 +1,11 @@
-import React, { useEffect } from 'react'
-import { useState } from 'react'
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import useFetch from '../../components/useFetch/UseFetch';
+import Loader from '../../components/loader/Loader';
 import "./Pacientes.css";
+import Button from '../../components/buttons/Button';
+import Modelo from '../../components/modelo/Modelo';
+
 
 const Pacientes = () => {
 
@@ -13,47 +17,33 @@ const Pacientes = () => {
     setDados(response);
   })
  }, []);
-
- console.log(dados);
-
+ console.log(dados)
   return (
     <div className="wrapper">
+      {isLoading && <Loader />}
     <div className='pacientes'>
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Nome</th>
-            <th>CPF</th>
-            <th>Idade</th>
-            <th>Estado</th>
-            <th>Cidade</th>
-            <th>Cep</th>
-            <th>Bairro</th>
-            <th>Rua</th>
-            <th>Número</th>
-          </tr>
-        </thead>
-        <tbody>
-          
-            {dados && dados.data.map(data =>{
-              return (
-                <tr key={data.id}>
-                <td>{data.id}</td>
-                <td>{data.nome}</td>
-                <td>{data.CPF}</td>
-                <td>{data.idade}</td>
-                <td>{data.endereco.estado}</td>
-                <td>{data.endereco.cidade}</td>
-                <td>{data.endereco.cep}</td>
-                <td>{data.endereco.bairro}</td>
-                <td>{data.endereco.rua}</td>
-                <td>{data.endereco.numero}</td>
-                </tr>
+      <div className="btn">
+        <div className="search">
+        <input type="search" placeholder='Digite Para Procurar Paciente'/>
+        </div>
+        <Button name="Cadastrar Paciente" color="#198754"/>
+      </div>
+      <div className="exibir-pacientes">
+        
+        <div style={{display: 'flex', flexWrap: 'wrap', margin: 'auto', justifyContent: 'center'}}>
+        {dados && dados.data.map(data =>{
+          return(
+            <div style={{margin: '20px 20px'}}>
+              <Modelo nome={data.nome} CPF={data.CPF} idade={data.idade} telefone={data.telefone}
+              estado={data.endereco.estado} cidade={data.endereco.cidade} rua={data.endereco.rua}
+              bairro={data.endereco.bairro} cep={data.endereco.cep} numero={data.endereco.numero}
+              />
+            </div>
               )
             })}
-        </tbody>
-      </table>
+            </div>
+        
+      </div>
     </div>
     </div>
   )

@@ -1,4 +1,3 @@
-import Aside from './components/aside/Aside'
 import Header from './components/header/Header'
 import Body from './components/body/Body'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -8,8 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div style={{display: 'flex'}}>
-        <Aside />
+      <div style={{width: "100%", margin: "auto"}}>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Body />} />
